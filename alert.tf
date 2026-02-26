@@ -6,7 +6,7 @@ provider "aws" {
 variable "aws_region" {
   description = "The AWS region for setting up resources"
   type        = string
-  default     = "ap-sounth-1"
+  default     = "us-east-1"
 }
 
 variable "sns_topic_name" {
